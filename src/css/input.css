@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply font-poppins;
+    }
+}
+@layer components {
+    .section-title {
+        @apply font-semibold text-[44px] leading-normal tracking-[-0.002em] md:text-4xl sm:text-3xl;
+    }
+    .tab-trigger.active {
+        @apply text-blueviolet border-b border-b-blueviolet pb-3;
+    }
+    .section-text {
+        @apply text-base text-lighgray tracking-[-0.002em];
+    }
+}
